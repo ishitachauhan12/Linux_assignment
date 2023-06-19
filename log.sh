@@ -1,5 +1,7 @@
 #!/usr/bin/bash
 
+#Create a sh file to write a current date time every 5 min in a log file(can be any
+#format).
 log_file="log.txt"  # Specify the name of your log file
 date_format="%Y-%m-%d %H:%M:%S"  # Specify the desired date and time format
 

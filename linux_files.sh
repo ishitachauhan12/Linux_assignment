@@ -72,10 +72,10 @@ vi helloworld.txt
 ps -eo pid,etime,args --sort=start_time --no-headers | awk '{split($2, time, ":"); if (time[1] >= 2) print $0}'
 
 #Schedule the sh file in crontab
-# echo 1 * * * * * date >> /home/shtlp0105/Desktop/assignment/linux/log.txt >> crontab -e
 
-#Write a sh file to find all images greater than 2MB in a folder and move them to
-another folder.
+echo (1 * * * * * date >> /home/shtlp0105/Desktop/assignment/linux/log.txt) >> crontab -e
+
+
 
 
 

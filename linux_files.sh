@@ -64,7 +64,10 @@ node --version
 
 #Create a custom command for yourself to always print hello “your name” on your
 #machine.
-vi helloworld.txt
+vi helloworld.txt << EOF
+:%s/hello world/hello ishita/g
+:wq
+EOF
 
 #type: :%s/hello world/hello ishita/g
 
